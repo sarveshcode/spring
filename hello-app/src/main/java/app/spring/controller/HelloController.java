@@ -11,12 +11,14 @@ public class HelloController {
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public ModelAndView home() {
         ModelAndView mav = new ModelAndView("home");
+        System.out.println("-->> redirect to home ");
         return mav;
     }
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public ModelAndView loginProcess() {
         ModelAndView mav = new ModelAndView("hello");
+        System.out.println("-->> redirect to hello ");
         return mav;
     }
 }

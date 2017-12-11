@@ -7,7 +7,7 @@
     <name>Hello App</name>
 
     <properties>
-        <app.name>hello-app</app.name>
+        <app.name>hello</app.name>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.3.2.RELEASE</spring.version>

@@ -1,0 +1,24 @@
+package com.app;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class HelloController {
+
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    @ResponseBody
+    public void hello() {
+        System.out.println("-->> hit hello request. ");
+    }
+
+    @RequestMapping(value = "/hello1", method = RequestMethod.GET)
+    @ResponseBody
+    public String hello1() {
+        System.out.println("-->> hit hello1 request. ");
+        return "Hello Page";
+    }
+
+}
