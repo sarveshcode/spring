@@ -29,7 +29,6 @@ any other database you must define the connection attributes in the application.
 
 In the sources folder, you create a resource file src/main/resources/application.properties
 
-spring.jpa.hibernate.ddl-auto=none
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/test
 spring.datasource.username=root
